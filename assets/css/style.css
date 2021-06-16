@@ -6,15 +6,24 @@ body {
     line-height: 30px;
     font-weight: bolder;
 
-    
+
     margin: 0;
     padding: 0;
     border: solid rgb(82, 8, 85) 2px;
-    border-top: solid black;
-    border-bottom: solid 5px;
+    border-top-color: black;
+    border-bottom-width: 5px;
 
 }
 p::first-letter {
     font-size: 26px;
     color: rgb(204, 86, 155);
+}
+.p1 {
+    border: solid black;
+    max-width: 700px;
+    min-width: 300px;
+    width: 100%;
+
+    min-height: 350px;
+
 }
