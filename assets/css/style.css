@@ -5,6 +5,14 @@ body {
     background-color: rgb(199, 177, 103);
     line-height: 30px;
     font-weight: bolder;
+
+    
+    margin: 0;
+    padding: 0;
+    border: solid rgb(82, 8, 85) 2px;
+    border-top: solid black;
+    border-bottom: solid 5px;
+
 }
 p::first-letter {
     font-size: 26px;
