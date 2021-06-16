@@ -1,3 +1,10 @@
 body {
     font-size: 20px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+p::first-letter {
+    font-size: 26px;
+    color: royalblue;
 }
