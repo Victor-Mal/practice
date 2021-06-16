@@ -34,8 +34,25 @@ p::first-letter {
     margin-top: 50px;
 }
 .four {
-    border: solid rgb(83, 83, 39) 15px;
+    border: solid rgb(83, 83, 39) 10px;
     border-style: double;
     outline: rgba(163, 250, 2, 0.993) solid 3px;
     outline-offset: -5px;
+}
+.span {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: solid;
+    text-align: center;
+
+}
+.div {
+    display: inline;
+}
+.a {
+    display: inline-block;
+    height: 60px;
 }
